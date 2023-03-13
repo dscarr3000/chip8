@@ -48,6 +48,6 @@ impl Memory {
     }
 
     fn write_byte(word: byte, index: u32) {
-
+        storage[index] = word;
     }
 }
